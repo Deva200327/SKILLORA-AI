@@ -6,6 +6,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages serves this project from /SKILLORA-AI/.
+    base: '/SKILLORA-AI/',
     plugins: [
       react(),
       tailwindcss(),
